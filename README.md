@@ -114,7 +114,9 @@ npm comes with its own command-line interface you can use in your terminal while
 * `npm search MODULE_NAME`: Search a module in the npm registry.
 * `npm install MODULE_NAME`: Install MODULE\_NAME locally.
 * `npm install -g MODULE_NAME`: install MODULE\_NAME globally.
-* `npm install --save MODULE_NAME`: install MODULE\_NAME locally and add it as a dependency in the package.json.
+* `npm install --save MODULE_NAME`: install MODULE\_NAME locally and add it as a dependency in the package.json.  
+  :grey_exclamation: NOTE :grey_exclamation: :right_anger_bubble:  
+  <ins>there was a change to npm, such that --save has become the default option, so you do not need to use --save to update the  dependencies</ins>
 * `npm install --save-dev MODULE_NAME`: install MODULE\_NAME locally and add it as a development dependency in the package.json. i.e. a dependency that is only needed for development and not the live version of the project.
 
 ### package.json
